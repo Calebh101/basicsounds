@@ -11,7 +11,7 @@ KEY
                 noncritical nonfunctional: not working as expected; sound is not behaving correctly
                 critical nonfunctional: not working as expected; sound will not play
                 nonexistent: not implemented
-                beta: not implemented into mainstream sound; put under custom.beta.etcetera
+                beta: not implemented into mainstream sound; put under beta.*
             Category: (not used in /playsound)
                 neutral: sound effect; will play where the player was standing when the sound was played
                 music: music track; will play anywhere the player is, regardless of their position
