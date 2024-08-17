@@ -1,0 +1,65 @@
+CUSTOM SOUNDS INDEX
+
+KEY
+    CUSTOM (custom sounds created using the addon pack)
+        Category (optional)
+        Subcategory (optional)
+        Sound Title
+            Name: name of the sound in Minecraft (used in /playsound)
+            Status: status of the element
+                functional: working as expected
+                noncritical nonfunctional: not working as expected; sound is not behaving correctly
+                critical nonfunctional: not working as expected; sound will not play
+                nonexistent: not implemented
+                beta: not implemented into mainstream sound; put under custom.beta.etcetera
+            Category: (not used in /playsound)
+                neutral: sound effect; will play where the player was standing when the sound was played
+                music: music track; will play anywhere the player is, regardless of their position
+                ui: sound effect; will play anywhere the player is, regardless of their position
+    OVERWRITTEN (default sounds that were overwritten for convenience or other reasons)
+        Category (optional)
+        Subcategory (optional)
+        Sound Title
+            Name: name of the sound in Minecraft (cannot be changed; used in /playsound)
+            Status: status of the element (see above in custom)
+            Category: (not used in /playsound)
+                default: default sound category is used
+                neutral: sound effect; will play where the player was standing when the sound was played
+                music: music track; will play anywhere the player is, regardless of their position
+                ui: sound effect; will play anywhere the player is, regardless of their position
+            Sound file: sound file status
+                default: default sound file is used
+                overwritten: new sound file is used
+
+CUSTOM
+    Whoosh
+        Name: custom.random.whoosh
+        Status: functional
+        Category: neutral
+    Beep
+        Name: custom.random.beep.short
+        Status: nonexistent
+        Category: ui
+    Beep Long
+        Name: custom.random.beep.long
+        Status: functional
+        Category: ui
+    Engine
+        Name: custom.vehicle.engine
+        Status: functional
+        Category: neutral
+    Engine float
+        Name: custom.vehicle.engine.float
+        Status: functional
+        Category: ui
+
+
+OVERWRITTEN
+    Records
+        Sound Title: record.chirp
+            Name: record.chirp
+            Status: beta
+            Category: default
+            Sound file: overwritten
+
+IMPORTED FROM RICH TEXT TO PLAINTEXT BY AI, SO PLEASE NOTIFY US OF ANY MISTAKES
