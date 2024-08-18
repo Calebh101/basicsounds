@@ -32,27 +32,32 @@ KEY
                 overwritten: new sound file is used
 
 CUSTOM
-    Whoosh
-        Name: custom.random.whoosh
-        Status: functional
-        Category: neutral
-    Beep
-        Name: custom.random.beep.short
-        Status: nonexistent
-        Category: ui
-    Beep Long
-        Name: custom.random.beep.long
-        Status: functional
-        Category: ui
-    Engine
-        Name: custom.vehicle.engine
-        Status: functional
-        Category: neutral
-    Engine float
-        Name: custom.vehicle.engine.float
-        Status: functional
-        Category: ui
-
+    Random
+        Whoosh
+            Name: custom.random.whoosh
+            Status: functional
+            Category: neutral
+        Beep
+            Name: custom.random.beep.short
+            Status: nonexistent
+            Category: ui
+        Beep Long
+            Name: custom.random.beep.long
+            Status: functional
+            Category: ui
+        Engine
+            Name: custom.vehicle.engine
+            Status: functional
+            Category: neutral
+        Engine float
+            Name: custom.vehicle.engine.float
+            Status: functional
+            Category: ui
+    Music
+        Skibidi Toilet
+            Name: custom.music.skibiditoilet
+            Status: functional
+            Category: ui
 
 OVERWRITTEN
     Records
